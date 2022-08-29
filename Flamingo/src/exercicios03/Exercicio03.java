@@ -9,13 +9,13 @@ public class Exercicio03 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite O Nome Do Funcionario: ");
-		String Funcionario = sc.next();
+		String nomeFuncionario = sc.next();
 		System.out.println("Digite o Salario: ");
-		float salario = sc.nextFloat();
+		float salarioDoFuncionario = sc.nextFloat();
 		System.out.println("Digite a Porcentagem: ");
-		float porcentagem = sc.nextFloat();
-		float NovoSalario = (salario * porcentagem) / 100 + salario;
-		System.out.println("O novo salário do funcionario " + Funcionario + " é: " + NovoSalario + "R$");
+		float porcentagemDoReajuste = sc.nextFloat();
+		float novoSalario = (salarioDoFuncionario * porcentagemDoReajuste) / 100 + salarioDoFuncionario;
+		System.out.println("O novo salário do funcionario " + nomeFuncionario + " é: " + novoSalario + "R$");
 		sc.close();
 	}
 }

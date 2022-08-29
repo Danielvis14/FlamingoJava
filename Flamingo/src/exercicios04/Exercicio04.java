@@ -14,7 +14,7 @@ public class Exercicio04 {
 		System.out.println("Digite O Valor Da Cotação Do Dolar($) Em Real(R$): ");
 		float cotacao = sc.nextFloat();
 		float conversao = dolar * cotacao;
-		System.out.println(+dolar + "$ = " + conversao + "R$");
+		System.out.println("$" + dolar + " = " + "R$" + conversao);
 		sc.close();
 	}
 }

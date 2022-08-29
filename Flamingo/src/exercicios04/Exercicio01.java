@@ -25,8 +25,8 @@ public class Exercicio01 {
 		int Soma4 = B + C;
 		int Soma5 = B + D;
 		int Soma6 = C + D;
-		System.out.println("Resultado Da Soma: \nA+B=" + Soma1 + "\nC+A=" + Soma2 + "\nA+D" + Soma3 + "\nB+C" + Soma4
-				+ "\nB+C" + Soma5 + "\nB+D" + "\nC+D" + Soma6);
+		System.out.println("Resultado Da Soma: \nA+B=" + Soma1 + "\nC+A=" + Soma2 + "\nA+D=" + Soma3 + "\nB+C=" + Soma4
+				+ "\nB+D=" + Soma5 + "\nC+D=" + Soma6);
 		int Multiplicacao1 = A * B;
 		int Multiplicacao2 = C * A;
 		int Multiplicacao3 = A * D;
@@ -34,7 +34,7 @@ public class Exercicio01 {
 		int Multiplicacao5 = B * D;
 		int Multiplicacao6 = C * D;
 		System.out.println("Resultado Da Multiplicacao: \nA*B=" + Multiplicacao1 + "\nC*A=" + Multiplicacao2 + "\nA*D="
-				+ Multiplicacao3 + "\nB*C" + Multiplicacao4 + "\nB*D=" + Multiplicacao5 + "\nC*D=" + Multiplicacao6);
+				+ Multiplicacao3 + "\nB*C=" + Multiplicacao4 + "\nB*D=" + Multiplicacao5 + "\nC*D=" + Multiplicacao6);
 		sc.close();
 	}
 

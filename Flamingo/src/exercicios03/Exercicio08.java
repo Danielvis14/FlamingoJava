@@ -1,4 +1,4 @@
-/*8) Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel 
+/*8) Efetuar o cálculo da quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel
 que faz 12 Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto*/
 
 package exercicios03;

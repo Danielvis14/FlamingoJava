@@ -14,7 +14,7 @@ public class Exercicio06 {
 		float ValorB = sc.nextFloat();
 		System.out.println("Digite O Valor C: ");
 		float ValorC = sc.nextFloat();
-		float Soma = ValorA*ValorA+ValorB*ValorB+ValorC*ValorC;
+		float Soma = (ValorA*ValorA)+(ValorB*ValorB)+(ValorC*ValorC);
 		System.out.println("A Soma Dos Quadrados É: " +Soma);
 		sc.close();
  }
