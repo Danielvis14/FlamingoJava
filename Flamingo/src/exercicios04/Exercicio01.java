@@ -27,14 +27,14 @@ public class Exercicio01 {
 		float soma6 = variavelC + variavelD;
 		System.out.println("Resultado Da Soma: \nA+B=" + soma1 + "\nC+A=" + soma2 + "\nA+D=" + soma3 + "\nB+C=" + soma4
 				+ "\nB+D=" + soma5 + "\nC+D=" + soma6);
-		float Multiplicacao1 = variavelA * variavelB;
-		float Multiplicacao2 = variavelC * variavelA;
-		float Multiplicacao3 = variavelA * variavelD;
-		float Multiplicacao4 = variavelB * variavelC;
-		float Multiplicacao5 = variavelB * variavelD;
-		float Multiplicacao6 = variavelC * variavelD;
-		System.out.println("Resultado Da Multiplicacao: \nA*B=" + Multiplicacao1 + "\nC*A=" + Multiplicacao2 + "\nA*D="
-				+ Multiplicacao3 + "\nB*C=" + Multiplicacao4 + "\nB*D=" + Multiplicacao5 + "\nC*D=" + Multiplicacao6);
+		float multiplicacao1 = variavelA * variavelB;
+		float multiplicacao2 = variavelC * variavelA;
+		float multiplicacao3 = variavelA * variavelD;
+		float multiplicacao4 = variavelB * variavelC;
+		float multiplicacao5 = variavelB * variavelD;
+		float multiplicacao6 = variavelC * variavelD;
+		System.out.println("Resultado Da Multiplicacao: \nA*B=" + multiplicacao1 + "\nC*A=" + multiplicacao2 + "\nA*D="
+				+ multiplicacao3 + "\nB*C=" + multiplicacao4 + "\nB*D=" + multiplicacao5 + "\nC*D=" + multiplicacao6);
 		sc.close();
 	}
 
