@@ -9,13 +9,13 @@ public class Exercicio09 {
 	public static void main(String[] Args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite O Valor Da Prestação: ");
-		float ValorDaPrestacao = sc.nextFloat();
+		float valorDaPrestacao = sc.nextFloat();
 		System.out.println("Digite O Valor Da Taxa De Atraso em %: ");
-		float ValorDaTaxa = sc.nextFloat();
+		float valorDaTaxa = sc.nextFloat();
 		System.out.println("Digite O Tempo de Atraso Em Dias: ");
-		int TempoDeAtraso = sc.nextInt();
-		float Prestacao = (ValorDaPrestacao + (ValorDaPrestacao * ValorDaTaxa / 100) * TempoDeAtraso);
-		System.out.println("O Valor Da Prestação É: "+Prestacao+ "R$");
+		float tempoDeAtraso = sc.nextInt();
+		float jurosPrestacao = (valorDaPrestacao + (valorDaPrestacao * valorDaTaxa / 100) * tempoDeAtraso);
+		System.out.println("O Valor Da Prestação É: "+jurosPrestacao+ "R$");
 		sc.close();
 
 	}

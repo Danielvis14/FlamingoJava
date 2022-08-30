@@ -8,13 +8,13 @@ import java.util.Scanner;
 public class Exercicio03 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Digite O Nome Do Funcionario: ");
+		System.out.println("Digite O Nome Do Funcionário: ");
 		String nomeFuncionario = sc.next();
-		System.out.println("Digite o Salario: ");
+		System.out.println("Digite o Salario Mensal Do Funcionário: ");
 		float salarioDoFuncionario = sc.nextFloat();
-		System.out.println("Digite a Porcentagem: ");
+		System.out.println("Digite a Porcentagem do Reajuste: ");
 		float porcentagemDoReajuste = sc.nextFloat();
-		float novoSalario = (salarioDoFuncionario * porcentagemDoReajuste) / 100 + salarioDoFuncionario;
+		float novoSalario = salarioDoFuncionario * porcentagemDoReajuste / 100 + salarioDoFuncionario;
 		System.out.println("O novo salário do funcionario " + nomeFuncionario + " é: " + novoSalario + "R$");
 		sc.close();
 	}

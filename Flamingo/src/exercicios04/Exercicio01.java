@@ -12,27 +12,27 @@ public class Exercicio01 {
 	public static void main(String[] Args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite o Primeiro Número: ");
-		int A = sc.nextInt();
+		float variavelA = sc.nextInt();
 		System.out.println("Digite O Segundo Número: ");
-		int B = sc.nextInt();
+		float variavelB = sc.nextInt();
 		System.out.println("Digite O Terceiro Número: ");
-		int C = sc.nextInt();
+		float variavelC = sc.nextInt();
 		System.out.println("Digite O Quarto Número: ");
-		int D = sc.nextInt();
-		int Soma1 = A + B;
-		int Soma2 = C + A;
-		int Soma3 = A + D;
-		int Soma4 = B + C;
-		int Soma5 = B + D;
-		int Soma6 = C + D;
+		float variavelD = sc.nextInt();
+		float Soma1 = variavelA + variavelB;
+		float Soma2 = variavelC + variavelA;
+		float Soma3 = variavelA + variavelD;
+		float Soma4 = variavelB + variavelC;
+		float Soma5 = variavelB + variavelD;
+		float Soma6 = variavelC + variavelD;
 		System.out.println("Resultado Da Soma: \nA+B=" + Soma1 + "\nC+A=" + Soma2 + "\nA+D=" + Soma3 + "\nB+C=" + Soma4
 				+ "\nB+D=" + Soma5 + "\nC+D=" + Soma6);
-		int Multiplicacao1 = A * B;
-		int Multiplicacao2 = C * A;
-		int Multiplicacao3 = A * D;
-		int Multiplicacao4 = B * C;
-		int Multiplicacao5 = B * D;
-		int Multiplicacao6 = C * D;
+		float Multiplicacao1 = variavelA * variavelB;
+		float Multiplicacao2 = variavelC * variavelA;
+		float Multiplicacao3 = variavelA * variavelD;
+		float Multiplicacao4 = variavelB * variavelC;
+		float Multiplicacao5 = variavelB * variavelD;
+		float Multiplicacao6 = variavelC * variavelD;
 		System.out.println("Resultado Da Multiplicacao: \nA*B=" + Multiplicacao1 + "\nC*A=" + Multiplicacao2 + "\nA*D="
 				+ Multiplicacao3 + "\nB*C=" + Multiplicacao4 + "\nB*D=" + Multiplicacao5 + "\nC*D=" + Multiplicacao6);
 		sc.close();

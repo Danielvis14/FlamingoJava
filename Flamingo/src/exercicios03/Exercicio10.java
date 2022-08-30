@@ -8,17 +8,17 @@ import java.util.Scanner;
 public class Exercicio10 {
 	
 	public static void main (String[] Args) {
-		int troca;
+		int variavelTroca;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite O Primeiro Valor: ");
-		int a = sc.nextInt();
+		int variavelA = sc.nextInt();
 		System.out.println("Digite O Segundo Valor: ");
-		int b = sc.nextInt();
-		troca = a;
-		a = b;
-		b = troca;
-		System.out.println("O Valor De A É: "+a);
-		System.out.println("O Valor de B É "+b);
+		int variavelB = sc.nextInt();
+		variavelTroca = variavelA;
+		variavelA = variavelB;
+		variavelB = variavelTroca;
+		System.out.println("O Valor de A É: "+variavelA);
+		System.out.println("O Valor de B É "+variavelB);
 		sc.close();
 	}
 }

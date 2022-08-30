@@ -11,14 +11,14 @@ public class Exercicio04 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Informe o valor de custo de fabrica: ");
-		float ValorCustoDeFabrica = sc.nextFloat();
-		int PorcentagemDeValorDeDistribuidor = 28;
-		int PorcentagemDeValorDeImposto = 45;
-		float ValorDeDistribuidor = ValorCustoDeFabrica * PorcentagemDeValorDeDistribuidor / 100;
-		float ValorDeImposto = ValorCustoDeFabrica * PorcentagemDeValorDeImposto / 100;
-		float ValorDeCustoDoConsumidor = ValorCustoDeFabrica + ValorDeDistribuidor + ValorDeImposto;
-		System.out.println("O Custo do Consumidor é: " + ValorDeCustoDoConsumidor + " R$");
+		System.out.println("Informe o valor de custo de fabrica do carro: ");
+		float valorCustoDeFabrica = sc.nextFloat();
+		int porcentagemDeValorDeDistribuidor = 28;
+		int porcentagemDeValorDeImposto = 45;
+		float valorDeDistribuidor = valorCustoDeFabrica * porcentagemDeValorDeDistribuidor / 100;
+		float valorDeImposto = valorCustoDeFabrica * porcentagemDeValorDeImposto / 100;
+		float valorDeCustoDoConsumidor = valorCustoDeFabrica + valorDeDistribuidor + valorDeImposto;
+		System.out.println("O Custo do Consumidor é: " + valorDeCustoDoConsumidor + " R$");
 		sc.close();
 	}
 }

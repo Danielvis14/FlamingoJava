@@ -9,10 +9,9 @@ public class Exercicio05 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite a Temperatura em graus Celsius: ");
-		int celsius = sc.nextInt();
-		int Fahrenheit = (9 * celsius + 160) / 5;
-		System.out.println("a temperatura em Fahrenheit é: " + Fahrenheit + "º");
+		float grausCelsius = sc.nextFloat();
+		float grausFahrenheit = (9 * grausCelsius + 160) / 5;
+		System.out.println("a temperatura em Fahrenheit é: " + grausFahrenheit + "º");
 		sc.close();
 	}
 }
- 
