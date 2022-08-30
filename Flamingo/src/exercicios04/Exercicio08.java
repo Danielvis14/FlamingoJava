@@ -10,16 +10,16 @@ public class Exercicio08 {
 	public static void main (String[]Args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite O Valor A:");
-		float ValorA = sc.nextFloat();
+		float valorA = sc.nextFloat();
 		System.out.println("Digite O Valor B:");
-		float ValorB = sc.nextFloat();
+		float valorB = sc.nextFloat();
 		System.out.println("Digite O Valor C:");
-		float ValorC = sc.nextFloat();
+		float valorC = sc.nextFloat();
 		System.out.println("Digite O Valor D:");
-		float ValorD = sc.nextFloat();
-		float Produto = ValorA*ValorC;
-		float Soma = ValorB+ValorD;
-		System.out.println("Valor Da Variável P = "+Produto+ "\nValor Da Variável S = "+Soma);
+		float valorD = sc.nextFloat();
+		float produto = valorA*valorC;
+		float soma = valorB+valorD;
+		System.out.println("Valor Da Variável P = "+produto+ "\nValor Da Variável S = "+soma);
 		sc.close();
 		
 	}

@@ -5,15 +5,15 @@ import java.util.Scanner;
 
 public class Exercicio03 {
 	public static void main(String[] Args) {
-		int Resultado;
+		int resultado;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite o Valor Da Variável A: ");
-		int A = sc.nextInt();
+		int valorA = sc.nextInt();
 		System.out.println("Digite O Valor DA Variável B: ");
-		int B = sc.nextInt();
-		Resultado = A - B;
-		Resultado = Resultado * Resultado;
-		System.out.println("Resultado Do Quadrado Será: "+Resultado);
+		int valorB = sc.nextInt();
+		resultado = valorA - valorB;
+		resultado = resultado * resultado;
+		System.out.println("Resultado Do Quadrado Será: "+resultado);
 		sc.close();
 	}
 

@@ -15,8 +15,8 @@ public class Exercicio01 {
 		int meses = sc.nextInt();
 		System.out.println("Digite os dias");
 		int dias = sc.nextInt();
-		int IdadeTotalDias = (anos * 365) + (meses * 30) + dias;
-		System.out.println("O Total Da Idade Em Dias É: " + IdadeTotalDias);
+		int idadeTotalDias = (anos * 365) + (meses * 30) + dias;
+		System.out.println("O Total Da Idade Em Dias É: " + idadeTotalDias);
 		sc.close();
 	}
 }

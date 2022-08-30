@@ -19,14 +19,14 @@ public class Exercicio01 {
 		float variavelC = sc.nextInt();
 		System.out.println("Digite O Quarto Número: ");
 		float variavelD = sc.nextInt();
-		float Soma1 = variavelA + variavelB;
-		float Soma2 = variavelC + variavelA;
-		float Soma3 = variavelA + variavelD;
-		float Soma4 = variavelB + variavelC;
-		float Soma5 = variavelB + variavelD;
-		float Soma6 = variavelC + variavelD;
-		System.out.println("Resultado Da Soma: \nA+B=" + Soma1 + "\nC+A=" + Soma2 + "\nA+D=" + Soma3 + "\nB+C=" + Soma4
-				+ "\nB+D=" + Soma5 + "\nC+D=" + Soma6);
+		float soma1 = variavelA + variavelB;
+		float soma2 = variavelC + variavelA;
+		float soma3 = variavelA + variavelD;
+		float soma4 = variavelB + variavelC;
+		float soma5 = variavelB + variavelD;
+		float soma6 = variavelC + variavelD;
+		System.out.println("Resultado Da Soma: \nA+B=" + soma1 + "\nC+A=" + soma2 + "\nA+D=" + soma3 + "\nB+C=" + soma4
+				+ "\nB+D=" + soma5 + "\nC+D=" + soma6);
 		float Multiplicacao1 = variavelA * variavelB;
 		float Multiplicacao2 = variavelC * variavelA;
 		float Multiplicacao3 = variavelA * variavelD;
