@@ -8,8 +8,8 @@ public class Exercicio12 {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite o valor da área do circulo");
-		float area = sc.nextFloat();
-		float circulo = (float) (3.14 * (area * area));
+		double area = sc.nextFloat();
+		double circulo = (Math.PI * (area * area));
 		System.out.println("O área do circulo corresponde a: " + circulo);
 		sc.close();
 	}
