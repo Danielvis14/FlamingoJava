@@ -10,7 +10,7 @@ public class Exercicio07 {
 		double valorDoRaio = sc.nextDouble();
 		System.out.println("Digite O Valor da Altura");
 		double Altura = sc.nextDouble();
-		double Volume = 3.14159 * (valorDoRaio * valorDoRaio) * Altura;
+		double Volume = Math.PI * (valorDoRaio * valorDoRaio) * Altura;
 		System.out.println("O Valor Do Volume Da Lata De Óleo É: " + Volume);
 		sc.close();
 	}
