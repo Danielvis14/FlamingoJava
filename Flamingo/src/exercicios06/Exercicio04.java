@@ -24,15 +24,16 @@ public class Exercicio04 {
 		int mediaNota = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4;
 		if (mediaNota >= 7) {
 			System.out.println("Aluno Aprovado Média: " + mediaNota);
-		} else
-			System.out.println("Digite a Nota da Prova de Recuperação: ");
-		int quintaNota = sc.nextInt();
-		int novaMedia = mediaNota + quintaNota / 2;
-		if (novaMedia >= 5) {
-			System.out.println("Aluno Aprovado com a Média: " + novaMedia);
 		} else {
-			System.out.println("Aluno Reprovado Com a Média: " + novaMedia);
+			System.out.println("Digite a Nota da Prova de Recuperação: ");
+			int quintaNota = sc.nextInt();
+			int novaMedia = mediaNota + quintaNota / 2;
+			if (novaMedia >= 5) {
+				System.out.println("Aluno Aprovado com a Média: " + novaMedia);
+			} else {
+				System.out.println("Aluno Reprovado Com a Média: " + novaMedia);
+			}
+			sc.close();
 		}
-		sc.close();
 	}
 }
