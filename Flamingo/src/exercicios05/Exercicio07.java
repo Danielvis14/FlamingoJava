@@ -12,10 +12,8 @@ public class Exercicio07 {
 		int valor1 = sc.nextInt();
 
 		if (valor1 > valor) {
-
 			System.out.printf("Os numeros em ordem crescente são: " + valor + " e " + valor1);
 		} else if (valor > valor1) {
-
 			System.out.printf("Os numeros em ordem crescente são." + valor1 + " e " + valor);
 		} else {
 			System.out.printf("Valores iguais não serão mostrados");
