@@ -16,11 +16,99 @@ public class Exercicio08 {
 		int quartoNumero = sc.nextInt();
 		System.out.println("Digite O Quinto Número:");
 		int quintoNumero = sc.nextInt();
-		if (primeiroNumero > segundoNumero) {
-			
+		// Menor Valor
+		if (primeiroNumero < segundoNumero) {
+			if (primeiroNumero < terceiroNumero) {
+				if (primeiroNumero < quartoNumero) {
+					if (primeiroNumero < quintoNumero) {
+						System.out.println("\nMenor valor: " + primeiroNumero);
 
+					}
+				}
+			}
+		}
+		if (segundoNumero < primeiroNumero) {
+			if (segundoNumero < terceiroNumero) {
+				if (segundoNumero < quartoNumero) {
+					if (segundoNumero < quintoNumero) {
+						System.out.println("\nMenor valor: " + segundoNumero);
+					}
+				}
+			}
+		}
+		if (terceiroNumero < primeiroNumero) {
+			if (terceiroNumero < segundoNumero) {
+				if (terceiroNumero < quartoNumero) {
+					if (terceiroNumero < quintoNumero) {
+						System.out.println("\nMenor valor: " + terceiroNumero);
+					}
+				}
+			}
 		}
 
-	}
+		if (quartoNumero < primeiroNumero) {
+			if (quartoNumero < segundoNumero) {
+				if (quartoNumero < terceiroNumero) {
+					if (quartoNumero < quintoNumero) {
+						System.out.println("\nMenor valor: " + quartoNumero);
+					}
+				}
+			}
+		}
+		if (quintoNumero < primeiroNumero) {
+			if (quintoNumero < segundoNumero) {
+				if (quintoNumero < terceiroNumero) {
+					System.out.println("\nMenor valor: " + quintoNumero);
+				}
+			}
+		}
+		// Maior Valor
 
+		if (primeiroNumero > segundoNumero) {
+			if (primeiroNumero > terceiroNumero) {
+				if (primeiroNumero > quartoNumero) {
+					if (primeiroNumero > quintoNumero) {
+						System.out.println("\nMaior valor: " + primeiroNumero);
+					}
+				}
+			}
+		}
+		if (segundoNumero > primeiroNumero) {
+			if (segundoNumero > terceiroNumero) {
+				if (segundoNumero > quartoNumero) {
+					if (segundoNumero > quintoNumero) {
+						System.out.println("\nMaior valor: " + segundoNumero);
+					}
+				}
+			}
+		}
+
+		if (terceiroNumero > primeiroNumero) {
+			if (terceiroNumero > segundoNumero) {
+				if (terceiroNumero > quartoNumero) {
+					if (terceiroNumero > quintoNumero) {
+						System.out.println("\nMaior valor: " + terceiroNumero);
+					}
+				}
+			}
+		}
+
+		if (quartoNumero > primeiroNumero) {
+			if (quartoNumero > segundoNumero) {
+				if (quartoNumero > terceiroNumero) {
+					if (quartoNumero > quintoNumero) {
+						System.out.println("\nMaior valor: " + quartoNumero);
+					}
+				}
+			}
+		}
+		if (quintoNumero > primeiroNumero) {
+			if (quintoNumero > segundoNumero) {
+				if (quintoNumero > terceiroNumero) {
+					System.out.println("\nMaior valor: " + quintoNumero);
+				}
+			}
+			sc.close();
+		}
+	}
 }

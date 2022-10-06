@@ -1,34 +1,35 @@
-/*7. Efetuar a leitura de três valores (variáveis A, B e C) e apresentá-los dispostos em ordem crescente.*/
 package exercicios06;
 
 import java.util.Scanner;
 
+//7. Efetuar a leitura de quatro números inteiros e apresentar os números que são divisíveis por 2 e 3.
 
 public class Exercicio07 {
+
 	public static void main(String[] args) {
-	Scanner sc = new Scanner(System.in);
-	System.out.println("Digite o Primeiro Valor: ");
-	int variavelA = sc.nextInt();
-	System.out.println("Digite o Segundo Valor: ");
-	int variavelB = sc.nextInt();
-	System.out.println("Digite o Terceiro Valor: ");
-	int variavelC = sc.nextInt();
-	System.out.print("os numeros ordenados em ordem crescente são: ");
-	if (variavelA<variavelB) {
-	 if (variavelB<variavelC) {
-			System.out.println(+variavelA);
-			System.out.println(+variavelB);
-			System.out.println(+variavelC);
-		} else if (variavelA<variavelC) {
-			System.out.println(+variavelA);
-			System.out.println(+variavelC);
-			System.out.println(+variavelB);
-		}else {
-			System.out.println(+variavelC);
-			System.out.println(+variavelA);
-			System.out.println(+variavelB);
+		int numeroA, numeroB, numeroC, numeroD;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Digite o primeiro valor: ");
+		numeroA = sc.nextInt();
+		System.out.print("Digite o segundo valor: ");
+		numeroB = sc.nextInt();
+		System.out.print("Digite o terceiro valor: ");
+		numeroC = sc.nextInt();
+		System.out.print("Digite o quarto valor: ");
+		numeroD = sc.nextInt();
+
+		if (numeroA % 2 == 0 || numeroA % 3 == 0) {
+			System.out.println(numeroA);
 		}
-	 sc.close();
+		if (numeroB % 2 == 0 || numeroB % 3 == 0) {
+			System.out.println(numeroB);
+		}
+		if (numeroC % 2 == 0 || numeroC % 3 == 0) {
+			System.out.println(numeroC);
+		}
+		if (numeroD % 2 == 0 || numeroD % 3 == 0) {
+			System.out.println(numeroD);
+		}
+		sc.close();
 	}
-	}
-	}
+}
