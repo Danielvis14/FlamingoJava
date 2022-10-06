@@ -105,10 +105,12 @@ public class Exercicio08 {
 		if (quintoNumero > primeiroNumero) {
 			if (quintoNumero > segundoNumero) {
 				if (quintoNumero > terceiroNumero) {
-					System.out.println("\nMaior valor: " + quintoNumero);
+					if (quintoNumero > quartoNumero) {
+						System.out.println("\nMaior valor: " + quintoNumero);
+					}
 				}
+				sc.close();
 			}
-			sc.close();
 		}
 	}
 }
