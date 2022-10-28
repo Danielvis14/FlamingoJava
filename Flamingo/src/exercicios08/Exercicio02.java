@@ -2,15 +2,13 @@
 package exercicios08;
 
 public class Exercicio02 {
-	public static void main(String[] args) {
-		
-		int contadora = 1;
-		while (contadora<=100) {
-			int somadora=2;
-			int conta = contadora+somadora;
-			System.out.println(conta);
-			contadora++;
+	public static void main(String args[]) {
+		int soma = 0;
+		for (int i = 0; i <= 100; i++) {
+			soma += i;
+
+			System.out.println("Somatório:" + soma);
+
 		}
 	}
-
 }
