@@ -10,7 +10,8 @@ import java.util.Scanner;
 
 public class Exercicio11 {
 	public static void main(String[] args) {
-		double valordamaca, valordomorango;
+		double valordamaca; 
+		double valordomorango;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite a quantidade de kilos do morango");
 		double quantidadedomorango = sc.nextDouble();
