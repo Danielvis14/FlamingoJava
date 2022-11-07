@@ -22,10 +22,10 @@ public class Exercicio06 {
 				totalSoma = totalSoma + numero;
 				totalValores++;
 			}
-			sc.close();
+		
 		} while (numero > 0);
 		float media = (totalSoma / totalValores);
-		System.out.println("Total Soma: " + totalSoma + " Media: " + media + " Total Valores Lidos: " + totalValores);
+		System.out.println("Total Soma: " + totalSoma + " Media: " + media + " Total Valores Lidos: " + totalValores);	
 	}
 
 }
